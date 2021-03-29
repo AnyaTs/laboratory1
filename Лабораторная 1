@@ -9,7 +9,7 @@ int main()
     
     {
         y = pow(sin(4*x),2)-3/pow(x,3)-3; 
-        printf( " y = %f\n", y);//выводим ответ 
+        printf( " y = %.3f \n ", y);//выводим ответ 
     }
     
     return 0;
